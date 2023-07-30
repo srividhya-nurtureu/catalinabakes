@@ -1,0 +1,176 @@
+*{
+margin : 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* header */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+  body {
+    padding-top: 80px; /* Adjust this value to prevent content from overlapping with the fixed header */
+  }
+  
+
+.navbar-dark.bg-dark {
+  background-color: #472468 !important;
+  font-size: 16px;
+  color: white;
+  font-size: large;
+  align-items: right;
+
+}
+
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6%;
+}
+
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.logo {
+    width: 200px; /* Initial width */
+    transition: width 0.5s; /* Animation duration */
+}
+
+.logo.shrink {
+    width: 100px; /* Shrunk width */
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 2%;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    background:lightblue;
+    background:radial-gradient(white 30%, lightblue 70%);
+}
+.fa-star,
+.fa-star-half{
+    color:yellowgreen;
+    padding:3% 0;
+}
+
+/*cart*/
+.left-side a {
+  display: block; /* Make the link a block-level element */
+  text-align: left; /* Align the link's text to the left */
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+#cart_count{
+  
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 5rem;
+}
+.shopping-cart
+{
+    padding:3% 0;
+}
+
+.cart-items +.cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding:3% 2%;
+}
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    
+  }
+  
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9999;
+  }
+  
+  #loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+/* footer */
+
+
+footer {
+  background-color: #472468 !important;
+ 
+  padding: 20px 0;
+  text-align: center;
+  bottom: 0;
+  /* Remove "position: fixed;" */
+  width: 100%;
+  color:#fff;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* style.css */
+
+/* Footer Styles */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Three Columns */
+
+.line-divider {
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+a.email-link {
+  color: white;
+  text-decoration: none;
+}
